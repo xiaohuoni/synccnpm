@@ -1,0 +1,23 @@
+{
+  "name": "synccnpm",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "synccnpm": "bin/synccnpm.js",
+    "sc": "bin/synccnpm.js"
+  },
+  "scripts": {
+    "callme": "node bin/synccnpm.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@umijs/utils": "^4.0.56",
+    "cnpm": "^9.0.1",
+    "tsx": "^3.12.3",
+    "yaml": "^2.2.1",
+    "zx": "^7.2.0"
+  }
+}
